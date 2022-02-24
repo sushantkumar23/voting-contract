@@ -1,12 +1,12 @@
 [programs.localnet]
-voting_contract = "Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnS"
+voting_contract = "H9KWqixopGaoH7VJfC5ARUn5e3tHNESfSMegsTuCXW5R"
 
 [registry]
 url = "https://anchor.projectserum.com"
 
 [provider]
 cluster = "localnet"
-wallet = "/Users/sushantkumar/.config/solana/id.json"
+wallet = "/Users/sushantkumar/.config/solana/localnet.json"
 
 [scripts]
 test = "yarn run mocha -t 1000000 tests/"
